@@ -1,7 +1,6 @@
-
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Facebook, Twitter, Instagram, Linkedin, GitHub } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Github } from "lucide-react";
 
 const footerLinks = {
   Produto: ["Pagamentos", "Faturamento", "Conecte", "Preços", "Terminal", "Radar", "Sigma", "Atlas"],
@@ -28,7 +27,7 @@ export const Footer = () => {
                 { icon: Twitter, href: "#" },
                 { icon: Instagram, href: "#" },
                 { icon: Linkedin, href: "#" },
-                { icon: GitHub, href: "#" },
+                { icon: Github, href: "#" },
               ].map((social, i) => (
                 <motion.a
                   key={i}
